@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Chicago Alucinados</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">🔥 Free U.S. Shipping on Orders Over $150 🔥</div>
+
+  <header>
+    <h1 class="logo">Chicago Alucinados</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="checkout.html" class="active">🛒</a>
+    </nav>
+  </header>
+
+  <section class="checkout-container">
+    <h2>Billing Info</h2>
+
+    <div class="checkout-flex">
+      <form class="checkout-form">
+        <label>Full Name</label>
+        <input type="text" required>
+        <label>Email</label>
+        <input type="email" required>
+        <label>Address</label>
+        <input type="text" required>
+        <label>Payment Method</label>
+        <select required>
+          <option value="">Select...</option>
+          <option>Credit Card</option>
+          <option>PayPal</option>
+        </select>
+        <button type="submit" class="btn">Complete Purchase</button>
+      </form>
+
+      <div class="checkout-summary">
+        <h3>Order Summary</h3>
+        <p>Total: $0.00</p>
+        <p class="summary-note">Free shipping on U.S. orders over $150</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chicago Alucinados. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
